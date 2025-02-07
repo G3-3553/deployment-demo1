@@ -1,0 +1,188 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.full-page-header {
+  background-color: #002b5c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 10px 40px; 
+  font-family:'Arvo';
+}
+
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-left: 30px;
+  font-family:'Arvo';
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-right: 50px;
+}
+.nav-signin {
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: #0056b3;
+  color: white !important;
+  transition: background 0.3s ease;
+}
+.nav-signin:hover {
+  background: #003d82;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 20px;
+  min-height: 60vh;
+}
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  transition: 0.3s ease-in-out;
+  font-family:'Forum';
+  font-size:1.2em;
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column; 
+    align-items: center;
+  }
+}
+    .feature-card{
+      width: 90%;
+      }
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+.full-page-footer {
+  background: #002b5c;
+  color: white;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: auto;
+  font-family:'Arvo';
+}
+.chatbot-wrapper {
+  position: fixed;
+  bottom: 80px; 
+  right: 20px;
+  z-index: 1000;
+}
+
+
+
+.xfinity-title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #002b5c;
+  margin-top: 180px;
+  font-family:'Arvo';
+ }
+ .xfinity-caption{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #002b5c;
+  margin-top: 50px;
+  font-family:'Arvo';
+ }
+ @media (max-width:768px)  {
+  .xfinity-title{
+      font-size: 2rem;
+      margin-top: 100px;
+  }
+ }
+
+
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+ }
+ .dropdown-btn {
+  background: #0056b3;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family:'Arvo';
+  font-size:large;
+ }
+ .dropdown-btn:hover {
+  background: #003c80;
+ }
+ .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border-radius: 5px;
+  width: 150px;
+  background: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family:'Arvo';
+ }
+ .dropdown-item {
+  display: block;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background: #0056b3;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  font-family:'Arvo';
+ }
+ .dropdown-item:hover {
+  background: #003c80;
+ }
+ 

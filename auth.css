@@ -1,0 +1,106 @@
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  background-color: #f4f4f4;  
+  font-family:'Arvo';
+}
+
+
+.auth-box {
+  width: 450px;  
+  padding: 35px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;  
+  font-family: 'Arvo';
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-family:'Arvo';
+}
+
+.input-group input {
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;  
+  font-family:'Arvo';
+}
+
+
+.auth-btn {
+  background-color: #002f6c; 
+  color: white;
+  padding: 14px;  
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background-color: #001b3a; 
+}
+
+.auth-links {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.auth-links a {
+  color: #002f6c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
+ .auth-message.error {
+  color: red;
+  font-family:'Arvo';
+  
+ }
+ .success-message {
+  text-align: center;
+  margin-top: 20px;
+  font-family:'Arvo';
+ }
+ .auth-message {
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family:'Arvo';
+ }
+
+ .close-button {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #555;
+  z-index: 1000; 
+ }
+ .close-button:hover {
+  color: red;
+ }
