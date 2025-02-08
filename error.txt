@@ -1,3 +1,7 @@
+C:\Users\338569\Desktop\xfinity>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/G3-3553/xfinity.git'
+
 (myenv) C:\Users\338569\Desktop\xfinity chatbot>git add .
 error: 'backend/' does not have a commit checked out
 fatal: adding files failed
