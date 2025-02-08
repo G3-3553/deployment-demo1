@@ -1,0 +1,13 @@
+(myenv) C:\Users\338569\Desktop\xfinity chatbot>git add .
+error: 'backend/' does not have a commit checked out
+fatal: adding files failed
+
+(myenv) C:\Users\338569\Desktop\xfinity chatbot>git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+(myenv) C:\Users\338569\Desktop\xfinity chatbot>git remote -v 
+
+(myenv) C:\Users\338569\Desktop\xfinity chatbot>
